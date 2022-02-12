@@ -1,0 +1,17 @@
+{
+  "name": "spa-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node --unhandled-rejections=strict index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "puppeteer": "^13.1.2",
+    "yargs": "^17.3.1"
+  }
+}
